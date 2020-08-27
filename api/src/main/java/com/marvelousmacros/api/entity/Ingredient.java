@@ -18,9 +18,9 @@ public class Ingredient {
     private MeasurementType measurementType;
 
     // intended for use with ingredients that can be weighed on a continuous scale
-    private long proteinConversionFactor;
-    private long carbConversionFactor;
-    private long fatConversionFactor;
+    private double proteinConversionFactor;
+    private double carbConversionFactor;
+    private double fatConversionFactor;
 
     // intended for use with ingredients that are discrete in nature, eg. a package of yogurt is likely not measured by weight
     private int discreteProteins;
